@@ -1,0 +1,126 @@
+/* ==========================================
+   MONPILOT DESIGN SYSTEM
+========================================== */
+
+:root {
+  /* Couleurs */
+
+  --background: #f8fafc;
+  --surface: #ffffff;
+
+  --primary: #1e3a8a;
+  --primary-light: #2563eb;
+
+  --accent: #10b981;
+
+  --success: #16a34a;
+  --warning: #f59e0b;
+  --danger: #dc2626;
+
+  --text: #1f2937;
+  --text-light: #64748b;
+
+  --border: #e2e8f0;
+
+  /* Ombres */
+
+  --shadow: 0 6px 20px rgba(15, 23, 42, 0.08);
+
+  --radius: 16px;
+}
+
+/* ==========================================
+   TYPOGRAPHIE
+========================================== */
+
+body {
+  margin: 0;
+
+  font-family: "Plus Jakarta Sans", sans-serif;
+
+  background: var(--background);
+
+  color: var(--text);
+
+  font-size: 14px;
+
+  font-variant-numeric: tabular-nums;
+}
+
+/* ==========================================
+   LES TITRES
+========================================== */
+
+h1 {
+  font-size: 32px;
+
+  font-weight: 700;
+
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 18px;
+
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 16px;
+
+  font-weight: 600;
+}
+
+/* ==========================================
+   LES BOUTONS
+========================================== */
+
+button {
+  font-family: inherit;
+
+  border: none;
+
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  padding: 10px 18px;
+
+  font-weight: 600;
+
+  transition: 0.2s;
+}
+button:hover {
+  transform: translateY(-1px);
+}
+/* ==========================================
+   LES IMPUTS
+========================================== */
+
+input,
+select,
+textarea {
+  font-family: inherit;
+
+  font-size: 14px;
+
+  padding: 10px 12px;
+
+  border: 1px solid var(--border);
+
+  border-radius: 10px;
+}
+
+/* ==========================================
+   LES LIENS
+========================================== */
+
+a {
+  color: var(--primary);
+
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

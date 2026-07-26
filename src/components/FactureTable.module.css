@@ -1,0 +1,42 @@
+.status {
+  padding: 6px 12px;
+
+  border-radius: 999px;
+
+  border: none;
+
+  font-size: 12px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.status {
+  padding: 6px 12px;
+
+  border-radius: 999px;
+
+  border: none;
+
+  font-size: 12px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.paid {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+.pending {
+  background-color: #fef3c7;
+  color: #b45309;
+}
+
+.late {
+  background-color: #fee2e2;
+  color: #dc2626;
+}

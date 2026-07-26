@@ -1,0 +1,70 @@
+.card {
+  background: white;
+
+  border-radius: 16px;
+
+  padding: 24px;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.card h3 {
+  font-size: 16px;
+
+  font-weight: 600;
+
+  color: var(--text-light);
+}
+
+.card p {
+  font-size: 32px;
+
+  font-weight: 700;
+
+  color: var(--primary);
+}
+
+/* ==============================
+   COULEURS METIER
+============================== */
+
+.primary {
+  border-left: 5px solid var(--primary);
+}
+
+.success {
+  border-left: 5px solid var(--success);
+}
+
+.warning {
+  border-left: 5px solid var(--warning);
+}
+.info {
+  border-left: 5px solid var(--primary);
+}
+
+.sales {
+  border-left: 5px solid #6366f1;
+}
+
+.calendar {
+  border-left: 5px solid #14b8a6;
+}
+
+.warning {
+  border-left: 5px solid var(--warning);
+}
+
+.success {
+  border-left: 5px solid var(--success);
+}

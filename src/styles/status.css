@@ -1,0 +1,41 @@
+/* ==============================
+   BADGES DE STATUT
+============================== */
+
+.status {
+  display: inline-flex;
+
+  align-items: center;
+
+  padding: 4px 10px;
+
+  border-radius: 999px;
+
+  font-size: 12px;
+
+  font-weight: 600;
+}
+
+.status-success {
+  background: rgba(22, 163, 74, 0.12);
+
+  color: var(--success);
+}
+
+.status-warning {
+  background: rgba(245, 158, 11, 0.14);
+
+  color: var(--warning);
+}
+
+.status-danger {
+  background: rgba(220, 38, 38, 0.12);
+
+  color: var(--danger);
+}
+
+.status-info {
+  background: rgba(37, 99, 235, 0.12);
+
+  color: var(--primary-light);
+}
