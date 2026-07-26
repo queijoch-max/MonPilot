@@ -31,3 +31,29 @@
   flex-direction: column;
   gap: 40px;
 }
+.container {
+  display: flex;
+}
+
+/* ==============================
+   CONTENU DES PAGES
+============================== */
+
+.content {
+  flex: 1;
+
+  padding: 20px;
+}
+
+/* ==============================
+   MOBILE
+============================== */
+
+@media (max-width: 768px) {
+  .content {
+    padding: 20px;
+
+    /* laisse la place au bouton hamburger */
+    padding-top: 80px;
+  }
+}
