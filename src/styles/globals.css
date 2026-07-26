@@ -102,3 +102,12 @@ a {
   flex-direction: column;
   gap: 24px;
 }
+/* ==============================
+   RESPONSIVE MOBILE
+============================== */
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+}
