@@ -26,7 +26,7 @@ import Factures from "./pages/Factures";
 
 import clientsData from "./data/clients";
 import devisData from "./data/devis";
-import rendezVousData from "./data/rendezVous";
+import rendezVousData from "./data/rendezvous";
 import facturesData from "./data/factures";
 
 // ==============================
