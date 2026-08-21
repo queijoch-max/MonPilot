@@ -1,16 +1,33 @@
-# React + Vite
+# MonPilot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 [Démo en ligne](https://mon-pilot-ten.vercel.app/)
 
-Currently, two official plugins are available:
+Application de gestion pour freelance/indépendant : clients, devis, factures et rendez-vous centralisés dans un seul tableau de bord.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Fonctionnalités
 
-## React Compiler
+- **Dashboard** : vue d'ensemble de l'activité
+- **Clients** : liste, fiche détail, création et modification
+- **Devis** : création, suivi, détail, transformation d'un devis accepté en facture
+- **Factures** : liste et suivi des factures
+- **Rendez-vous** : planning, création, détail, modification
+- Données conservées en local (`localStorage`), pas de backend
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Stack technique
 
-## Expanding the ESLint configuration
+- React 19 (Vite)
+- React Router
+- CSS Modules
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation en local
+
+Prérequis : Node.js.
+
+```bash
+npm install
+npm run dev
+```
+
+## À propos
+
+Projet portfolio développé en autodidacte, pour s'entraîner à construire une vraie application multi-pages avec formulaires, listes, et navigation par React Router inspiré d'un CRM
